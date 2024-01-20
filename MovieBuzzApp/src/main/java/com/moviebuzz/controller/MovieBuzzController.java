@@ -10,15 +10,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.service.annotation.PutExchange;
-
 import com.moviebuzz.entity.Movie;
 import com.moviebuzz.service.MovieBuzzService;
 
 @RestController
 @RequestMapping("/moviebuzz/movies")
 public class MovieBuzzController {
-	
+	//Swagger UI - url - swagger-ui/index.html
 	@Autowired
 	private MovieBuzzService movieBuzzService;
 	
