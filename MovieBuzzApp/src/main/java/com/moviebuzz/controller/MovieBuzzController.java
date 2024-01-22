@@ -20,6 +20,7 @@ public class MovieBuzzController {
 	@Autowired
 	private MovieBuzzService movieBuzzService;
 	
+	//get a movie by ID
 	@GetMapping("/{id}")
 	public Movie getMovieById(@PathVariable Long id) {
 		return movieBuzzService.getMovieById(id);
