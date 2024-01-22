@@ -18,6 +18,7 @@ public class Movie {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long movieId;
 	
+	//Name of the movie
 	private String movieName;
 	
 	@Enumerated(EnumType.STRING)
