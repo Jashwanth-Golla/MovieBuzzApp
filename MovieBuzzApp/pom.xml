@@ -59,6 +59,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>movie-buzz-app.jar</finalName>
 		<plugins>
 			<plugin>
             	<groupId>org.springframework.boot</groupId>
