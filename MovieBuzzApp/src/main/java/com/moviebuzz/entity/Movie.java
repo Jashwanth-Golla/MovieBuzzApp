@@ -41,7 +41,7 @@ public class Movie {
 	@Column(name="movie_rating")
 	@DecimalMin(value ="0.0",inclusive = true)
 	@DecimalMax(value="5.0",inclusive=true)
-	private Float movieRating;
+	private Double movieRating;
 	
 	@NotNull
 	@Column(name="movie_review")
@@ -57,6 +57,13 @@ public class Movie {
 	public <T> String valueToString(T value, String label) {
 		return Optional.ofNullable(value) .map(v -> label + ": " + v.toString()) .orElse(""); 
 		}
+
+	public Movie(String movieName, Genre movieGenre, Double movieRating, String movieReview) {
+		this.movieName = movieName;
+		this.movieGenre = movieGenre;
+		this.movieRating = movieRating;
+		this.movieReview = movieReview;
+	}
 
 	
 }
