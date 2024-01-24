@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import com.moviebuzz.entity.Movie;
-import com.moviebuzz.exception.MethodArgumentNotValidException;
+import com.moviebuzz.exception.NullAttributeException;
 import com.moviebuzz.exception.NotFoundException;
 import com.moviebuzz.repository.MovieBuzzRepository;
 
