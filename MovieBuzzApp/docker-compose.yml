@@ -16,8 +16,7 @@ services:
     environment:
       DATABASE_PORT : 3306
       MYSQL_ROOT_PASSWORD : root
-      MYSQL_DATABASE : movie-buzz
-    hostname: database    
+      MYSQL_DATABASE : movie-buzz   
     
        
       
