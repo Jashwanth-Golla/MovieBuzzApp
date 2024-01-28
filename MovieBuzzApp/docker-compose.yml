@@ -1,6 +1,12 @@
 version : '8.3'
 
 services:
+  database:
+    image : mysql:5.7
+    environment:
+      DATABASE_PORT : 3306
+      MYSQL_ROOT_PASSWORD : root
+      MYSQL_DATABASE : movie-buzz 
   backend:
     image: jashwanthgolla/jash-dev-project
     ports:
@@ -10,13 +16,7 @@ services:
       SPRING_DATASOURCE_USERNAME : root
       SPRING_DATASOURCE_PASSWORD : root
     depends_on:
-      - database
-  database:
-    image : mysql:5.7
-    environment:
-      DATABASE_PORT : 3306
-      MYSQL_ROOT_PASSWORD : root
-      MYSQL_DATABASE : movie-buzz   
+      - database  
     
        
       
