@@ -2,7 +2,7 @@ version : '8.3'
 
 services:
   database:
-    image : mysql:5.7
+    image : mysql
     environment:
       DATABASE_PORT : 3306
       MYSQL_ROOT_PASSWORD : root
@@ -12,7 +12,7 @@ services:
     ports:
       - 8090:8090
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/movie-buzz
+      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/movie-buzz?autoReconnect=true&useSSL=false&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME : root
       SPRING_DATASOURCE_PASSWORD : root
     depends_on:
