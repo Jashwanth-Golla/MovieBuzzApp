@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
-@SpringBootApplication(scanBasePackages = "com.moviebuzz")
-@PropertySource("application.properties") // For letting the Spring Boot know the properties file 
+@SpringBootApplication
+//@PropertySource("application.properties") // For letting the Spring Boot know the properties file 
 public class MovieBuzzApplication {
 
 	public static void main(String[] args) {
