@@ -6,7 +6,7 @@ services:
     environment:
       DATABASE_PORT : 3306
       MYSQL_ROOT_PASSWORD : root
-      MYSQL_DATABASE : movie-buzz 
+      MYSQL_DATABASE : moviebuzz 
   backend:
     image: jashwanthgolla/jash-dev-project
     ports:
