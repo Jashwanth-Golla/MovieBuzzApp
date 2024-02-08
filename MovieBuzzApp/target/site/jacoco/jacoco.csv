@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+MovieBuzzApp,com.moviebuzz.entity,Genre,0,39,0,0,0,2,0,1,0,1
+MovieBuzzApp,com.moviebuzz.entity,Movie,149,134,33,13,8,8,28,14,5,14
+MovieBuzzApp,com.moviebuzz.controller,CustomErrorController,8,0,0,0,2,0,2,0,2,0
+MovieBuzzApp,com.moviebuzz.controller,MovieBuzzController,81,84,38,18,7,15,29,5,1,5
+MovieBuzzApp,com.moviebuzz,MovieBuzzApplication,5,3,0,0,2,1,1,1,1,1
+MovieBuzzApp,com.moviebuzz.validation,GenreValidator,40,0,4,0,4,0,6,0,4,0
+MovieBuzzApp,com.moviebuzz.exception,NotFoundException,4,0,0,0,2,0,1,0,1,0
+MovieBuzzApp,com.moviebuzz.exception,GlobalExceptionHandler,10,3,0,0,2,1,2,1,2,1
+MovieBuzzApp,com.moviebuzz.exception,NullAttributeException,4,0,0,0,2,0,1,0,1,0
+MovieBuzzApp,com.moviebuzz.service,MovieBuzzService,153,0,24,0,21,0,18,0,6,0

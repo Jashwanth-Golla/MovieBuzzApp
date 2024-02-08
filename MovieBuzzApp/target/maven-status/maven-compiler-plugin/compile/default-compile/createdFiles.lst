@@ -1,0 +1,12 @@
+com\moviebuzz\validation\GenreValidator.class
+com\moviebuzz\entity\Movie.class
+com\moviebuzz\validation\GenreValue.class
+com\moviebuzz\controller\MovieBuzzController.class
+com\moviebuzz\MovieBuzzApplication.class
+com\moviebuzz\repository\MovieBuzzRepository.class
+com\moviebuzz\entity\Genre.class
+com\moviebuzz\service\MovieBuzzService.class
+com\moviebuzz\exception\NotFoundException.class
+com\moviebuzz\exception\NullAttributeException.class
+com\moviebuzz\exception\GlobalExceptionHandler.class
+com\moviebuzz\controller\CustomErrorController.class
