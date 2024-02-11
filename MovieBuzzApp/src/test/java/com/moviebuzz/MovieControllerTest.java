@@ -74,7 +74,7 @@ public class MovieControllerTest {
         String movieJson = objectMapper.writeValueAsString(movie1);
 
         // Create ResponseEntity<String> object
-        ResponseEntity<String> responseEntity = new ResponseEntity<>(movieJson, HttpStatus.FOUND);
+        ResponseEntity<Object> responseEntity = new ResponseEntity<>(movieJson, HttpStatus.FOUND);
 
         // Stub the service method to return the ResponseEntity<String> object
         when(movieBuzzService.getMovieById(1L)).thenReturn(responseEntity);
