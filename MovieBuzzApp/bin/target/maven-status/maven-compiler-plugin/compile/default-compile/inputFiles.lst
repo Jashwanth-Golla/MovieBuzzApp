@@ -1,0 +1,12 @@
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\validation\GenreValidator.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\MovieBuzzApplication.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\repository\MovieBuzzRepository.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\exception\GlobalExceptionHandler.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\entity\Genre.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\exception\NullAttributeException.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\entity\Movie.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\exception\NotFoundException.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\controller\CustomErrorController.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\controller\MovieBuzzController.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\validation\GenreValue.java
+C:\MovieBuzzApp\MovieBuzzApp\src\main\java\com\moviebuzz\service\MovieBuzzService.java
